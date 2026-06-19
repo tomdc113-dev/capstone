@@ -1,0 +1,159 @@
+.membership {
+  min-height: 100vh;
+  background: #14162e;
+  padding: 80px 5%;
+  color: white;
+}
+
+.membership-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.membership-header h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.membership-header p {
+  color: #c7c7c7;
+  font-size: 15px;
+}
+
+.plans-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.plan-card {
+  background: #22244d;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 16px;
+  padding: 30px 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  transition: 0.3s ease;
+}
+.plan-card h3 {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #d7d7d7;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.price {
+  margin-bottom: 25px;
+}
+
+.price span {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.price small {
+  font-size: 1rem;
+}
+
+.plan-card ul {
+  list-style: none;
+  font-size: 15px;
+  padding: 0;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.plan-card ul li {
+  margin-bottom: 14px;
+  position: relative;
+  padding-left: 18px;
+}
+
+.plan-card ul li::before {
+  content: "•";
+  color: #ffd54f;
+  position: absolute;
+  left: 0;
+}
+
+.plan-card button {
+  width: 100%;
+  margin-top: auto;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  background: #2d2f66;
+  transition: 0.3s;
+  position: static;
+}
+
+.plan-card button:hover {
+  opacity: 0.9;
+}
+
+/* Monthly */
+.popular {
+  border: 1px solid #ff1493;
+}
+
+.popular button {
+  position: static;
+  background: #c2187a;
+}
+
+.popular-badge {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #c2187a;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Quarterly */
+.plan-card:nth-child(3) {
+  border: 1px solid #8a2be2;
+}
+
+.plan-card:nth-child(3) button {
+  background: #7b1fa2;
+}
+
+/* Yearly */
+.yearly {
+  border: 1px solid #f1c40f;
+}
+
+.yearly button {
+  background: #d4af37;
+  color: black;
+  position: static;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .plans-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .plans-container {
+    grid-template-columns: 1fr;
+  }
+
+  .membership-header h2 {
+    font-size: 2rem;
+  }
+}

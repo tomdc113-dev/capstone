@@ -1,0 +1,125 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 24px;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(3.2px);
+  -webkit-backdrop-filter: blur(8px);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  color: #e5e5e5;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+  white-space: nowrap;
+}
+
+.nav-links li:hover {
+  color: white;
+}
+
+.nav-right {
+  display: flex;
+  gap: 10px;
+}
+
+.login-btnnav,
+.register-btn {
+  padding: 8px 16px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.login-btnnav {
+  border: 1px solid rgba(255, 255, 255, 0.233);
+  background: transparent;
+  color: white;
+}
+.login-btnnav {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.login-btnnav:hover {
+  background: rgba(255,255,255,0.12);
+}
+
+.register-btn {
+  border: none;
+  background: #9b1d64;
+  color: white;
+}
+
+.register-btn:hover {
+  background: #9b1d64b7;
+}
+
+/* pang maliit na screen */
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+
+    gap: 12px;
+
+    padding: 15px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 14px;
+  }
+
+  .nav-right {
+    width: 100%;
+
+    justify-content: center;
+  }
+
+  .login-btn,
+  .register-btn {
+    width: 120px;
+  }
+}

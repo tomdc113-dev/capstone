@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.trainers {
+  background: #232248;
+  min-height: 100vh;
+  padding: 70px 8%;
+  color: white;
+  text-align: center;
+  scroll-margin-bottom: 90px;
+}
+
+.trainers h2 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-top: 12px;
+  color: #d5d4e8;
+  margin-bottom: 60px;
+}
+
+.trainer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+}
+
+.trainer-card {
+  background: #18173b;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 18px;
+  padding: 10px 20px;
+  transition: .35s;
+}
+
+.trainer-card:hover {
+  transform: translateY(-8px);
+  box-shadow:
+  0 12px 40px rgba(0,0,0,.35);
+}
+
+.avatar {
+  width: 74px;
+  height: 74px;
+  margin: auto;
+  border-radius: 50%;
+  background: rgba(180, 0, 110, 0.18);
+  color: #ff2ba0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+
+.trainer-card h3 {
+  font-size: 20px;
+}
+
+.specialty {
+  color: #d60082;
+  margin-top: 10px;
+}
+
+.cert-section {
+  margin-top: 34px;
+  text-align: left;
+}
+
+.cert-section span:first-child {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.certs {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.badge {
+  background: #2d2b62;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.rating {
+  margin-top: 28px;
+  font-size: 18px;
+}
+
+.rating span {
+  color: #d4d3e5;
+}
+
+button {
+  margin-top: 26px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    #d10080,
+    #b01778
+  );
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button:hover {
+  transform: scale(1.03);
+  background: linear-gradient(
+    90deg,
+    #ec1897,
+    #d50087
+  );
+}
+
+@media (max-width: 768px) {
+  .trainers h2 {
+    font-size: 30px;
+  }
+  .trainer-card {
+    padding: 32px 18px;
+  }
+}
