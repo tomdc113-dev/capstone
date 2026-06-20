@@ -1,6 +1,13 @@
 import "./Hero.css";
 
 function Hero() {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section id="Hero" className="hero">
       <div className="hero-content">
@@ -15,7 +22,9 @@ function Hero() {
 
         <div className="hero-buttons">
           <button className="btn-primary">Get Started </button>
-          <button className="btn-secondary">View Plans</button>
+          <button onClick={() => scrollToSection("plans")} className="btn-secondary">
+            View Plans
+          </button>
         </div>
       </div>
     </section>
