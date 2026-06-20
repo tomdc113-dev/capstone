@@ -9,17 +9,21 @@
   color: white;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), 
+  rgba(0, 0, 0, 0.5), 
   rgba(0, 0, 0, 0.5)),
     url("../assets/pic1.png"),
-    url("../assets/deadp.jpg"),
-    url("../assets/pic3.png");
+    url("../assets/pic2.png"),
+    url("../assets/pic3.png"),
+    url("../assets/pic4.png");
 
   background-size:
+    100vw 100vh,
     100vw 100vh,
     100vw 100vh,
     100vw 100vh;
 
   background-repeat:
+    no-repeat,
     no-repeat,
     no-repeat,
     no-repeat;
@@ -28,24 +32,36 @@
 }
 @keyframes heroSlide {
   0%,
-  30% {
+  25% {
     background-position:
+      0 0,
+      100vw 0,
+      200vw 0,
+      300vw 0;
+  }
+
+  26%,
+  50% {
+    background-position:
+      -100vw 0,
       0 0,
       100vw 0,
       200vw 0;
   }
 
-  33%,
-  63% {
+  51%,
+  75% {
     background-position:
+      -200vw 0,
       -100vw 0,
       0 0,
       100vw 0;
   }
 
-  66%,
+  76%,
   100% {
     background-position:
+      -300vw 0,
       -200vw 0,
       -100vw 0,
       0 0;
