@@ -12,10 +12,10 @@
 
 .login-box {
   width: 450px;
-  background: #1A1A1A;
+  background: #181B20;
   padding: 30px;
   border-radius: 16px;
-  color: white;
+  color: #E0DACC;
   position: relative;
   box-shadow:
   0 20px 60px rgba(0,0,0,.45);
@@ -37,7 +37,7 @@ h2 {
 }
 
 .subtitle {
-  color: #b6b6cb;
+  color: #B9B2A4;
   margin: 0 0 20px;
 }
 
@@ -53,7 +53,7 @@ h2 {
   padding: 010px;
   border: 2px solid transparent;
   background: transparent;
-  color: white;
+  color: #E0DACC;
   cursor: pointer;
   border-radius: 5px;
   box-sizing: border-box;
@@ -61,10 +61,10 @@ h2 {
 }
 
 .role-tabs button.active {
-  background: #D4A84B;
-  border-color: #d5c519;
+  background: #C9A646;
+  border-color: #E7D49A;
   box-shadow:
-    0 0 12px rgba(213,197,25,.5);
+    0 0 12px rgba(213,197,25,.3);
 }
 
 label {
@@ -77,9 +77,9 @@ input {
   padding: 14px;
   padding-right: 42px;
   border-radius: 10px;
-  border: 1px solid #383668;
-  background: #2d2c59;
-  color: white;
+  border: 1px solid #434A55;
+  background: #101114;
+  color: #B9B2A4;
   outline: none;
   box-sizing: border-box;
 }
@@ -111,16 +111,16 @@ input {
   padding: 14px;
   border: none;
   border-radius: 10px;
-  background: #D4A84B;
-  color: white;
+  background: #C9A646;
+  color: #181818;
   font-weight: bold;
   cursor: pointer;
   transition: .3s;
 }
 
 .login-btn:hover {
-  transform: translateY(-2px);
-  background: #cc2d82;
+  transform: translateY(-1px);
+  background: #D8B75B;
 }
 
 .forgot {
@@ -129,7 +129,7 @@ input {
 }
 
 .forgot-link {
-  color: #9ecbff;
+  color: #E0DACC;
   text-decoration: none;
   font-size: 13px;
 }
@@ -142,11 +142,11 @@ input {
   text-align: center;
   margin-top: 15px;
   font-size: 14px;
-  color: #b6b6cb;
+  color: #B9B2A4;
 }
 
 .signup-link {
-  color: #9ecbff;
+  color: #FFD447;
   text-decoration: none;
   font-weight: bold;
   transition: .3s;
@@ -154,5 +154,4 @@ input {
 
 .signup-link:hover {
   text-decoration: underline;
-  color: #c7deff;
 }

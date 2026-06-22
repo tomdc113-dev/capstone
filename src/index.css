@@ -1,13 +1,4 @@
 :root {
-  /* Theme Colors */
-  --primary-bg: #1A1A2E;
-  --accent: #9B1D64;
-  --highlight: #D4AF37;
-
-  /* Text */
-  --text: #b8bcc8;
-  --text-h: #ffffff;
-
   /* UI */
   --bg: var(--primary-bg);
   --border: rgba(255, 255, 255, 0.1);

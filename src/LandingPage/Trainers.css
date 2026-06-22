@@ -5,10 +5,10 @@
 }
 
 .trainers {
-  background: #0D0D0D;
+  background: #101114;
   min-height: 100vh;
   padding: 70px 8%;
-  color: white;
+  color:  #E0DACC;
   text-align: center;
   scroll-margin-bottom: 90px;
 }
@@ -20,7 +20,7 @@
 
 .subtitle {
   margin-top: 12px;
-  color: #d5d4e8;
+  color: #B9B2A4;
   margin-bottom: 60px;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .trainer-card {
-  background: #1A1A1A;
+  background: #20252C;
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 18px;
   padding: 10px 20px;
@@ -49,8 +49,8 @@
   height: 74px;
   margin: auto;
   border-radius: 50%;
-  background: rgba(180, 0, 110, 0.18);
-  color: #ff2ba0;
+  background: rgba(16, 17, 20, 0.5);
+  color: #FFD447;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,7 +64,7 @@
 }
 
 .specialty {
-  color: #d60082;
+  color: #D8B75B;
   margin-top: 10px;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .badge {
-  background: #2d2b62;
+  background: #181B20;
   padding: 6px 12px;
   border-radius: 999px;
   font-size: 12px;
@@ -98,7 +98,7 @@
 }
 
 .rating span {
-  color: #d4d3e5;
+  color: #B9B2A4;
 }
 
 button {
@@ -108,9 +108,9 @@ button {
   border-radius: 10px;
   background: linear-gradient(
     90deg,
-   #D4A84B
+   #C9A646
   );
-  color: white;
+  color: #181818;
   font-size: 15px;
   font-weight: 700;
   cursor: pointer;
@@ -121,8 +121,8 @@ button:hover {
   transform: scale(1.03);
   background: linear-gradient(
     90deg,
-    #ec1897,
-    #d50087
+    #D8B75B,
+      #181B20
   );
 }
 

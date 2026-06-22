@@ -6,7 +6,7 @@
   background: rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(3.2px);
   -webkit-backdrop-filter: blur(8px);
-  color: white;
+  color:  #DED8D1;
   position: fixed;
   top: 0;
   left: 0;
@@ -35,21 +35,20 @@
 .nav-links {
   display: flex;
   gap: 20px;
-
   list-style: none;
-
+  align-items: center;
   margin: 0;
   padding: 0;
 }
 
 .nav-links li {
-  color: #e5e5e5;
-
+  color:#DED8D1;
   cursor: pointer;
-
   transition: 0.3s;
-
   white-space: nowrap;
+  line-height: 1;
+  display: flex;
+  align-items: center;
 }
 
 .nav-links li:hover {
@@ -59,6 +58,7 @@
 .nav-right {
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
 .login-btnnav {
@@ -66,13 +66,18 @@
   border-radius: 7px;
   cursor: pointer;
   transition: 0.3s;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  height: fit-content;
   white-space: nowrap;
+  margin-top: 10px;
 }
 
 .login-btnnav {
-  border: 1px solid rgba(255, 255, 255, 0.233);
-  background: transparent;
-  color: white;
+  border: 2px solid rgba(49, 54, 61, 0.5);
+  color:  #181818;
+  background: #C9A646;
 }
 .login-btnnav {
   text-decoration: none;
@@ -80,7 +85,7 @@
 }
 
 .login-btnnav:hover {
-  background: rgba(255,255,255,0.12);
+  background: rgba(216, 183, 91, 0.5);
 }
 
 /* pang maliit na screen */
