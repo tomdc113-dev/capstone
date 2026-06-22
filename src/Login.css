@@ -12,7 +12,7 @@
 
 .login-box {
   width: 450px;
-  background: #23224d;
+  background: #1A1A1A;
   padding: 30px;
   border-radius: 16px;
   color: white;
@@ -61,7 +61,7 @@ h2 {
 }
 
 .role-tabs button.active {
-  background: #a51d65;
+  background: #D4A84B;
   border-color: #d5c519;
   box-shadow:
     0 0 12px rgba(213,197,25,.5);
@@ -111,7 +111,7 @@ input {
   padding: 14px;
   border: none;
   border-radius: 10px;
-  background: #b31f6f;
+  background: #D4A84B;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -136,4 +136,23 @@ input {
 
 .forgot-link:hover {
   text-decoration: underline;
+}
+
+.signup-prompt {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #b6b6cb;
+}
+
+.signup-link {
+  color: #9ecbff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+  color: #c7deff;
 }

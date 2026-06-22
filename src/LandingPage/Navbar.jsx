@@ -57,13 +57,6 @@ function Navbar() {
           >
             Login
           </button>
-
-          <Link to="/register">
-            <button className="register-btn">
-              Register
-            </button>
-          </Link>
-
         </div>
       </nav>
 

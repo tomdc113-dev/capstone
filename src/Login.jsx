@@ -71,6 +71,13 @@ function Login({ isOpen, onClose }) {
           className="forgot-link">Forgot Password?
         </Link>
       </div>
+
+        <p className="signup-prompt">
+          Don't have an account?{" "}
+          <Link to="/register" className="signup-link">
+            Sign up now
+          </Link>
+        </p>
       </div>
     </div>
   );

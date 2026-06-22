@@ -5,7 +5,7 @@
 }
 
 .trainers {
-  background: #232248;
+  background: #0D0D0D;
   min-height: 100vh;
   padding: 70px 8%;
   color: white;
@@ -31,7 +31,7 @@
 }
 
 .trainer-card {
-  background: #18173b;
+  background: #1A1A1A;
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 18px;
   padding: 10px 20px;
@@ -108,8 +108,7 @@ button {
   border-radius: 10px;
   background: linear-gradient(
     90deg,
-    #d10080,
-    #b01778
+   #D4A84B
   );
   color: white;
   font-size: 15px;
