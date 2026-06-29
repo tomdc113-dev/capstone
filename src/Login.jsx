@@ -10,15 +10,8 @@ function Login({ isOpen, onClose }) {
 
   return (
     <div className="modal-overlay" onClick={onClose}>
-      <div
-        className="login-box"
-        onClick={(e) => e.stopPropagation()}
-      >
-
-        <button
-          className="close-btn"
-          onClick={onClose}
-        >
+      <div className="login-box" onClick={(e) => e.stopPropagation()}>
+        <button className="close-btn" type="button" onClick={onClose}>
           ✕
         </button>
 

@@ -71,13 +71,9 @@
 .cert-section {
   margin-top: 34px;
   text-align: left;
-}
-
-.cert-section span:first-child {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
 }
-
 .certs {
   margin-top: 14px;
   display: flex;
