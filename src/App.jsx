@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 import Home from "./Home.jsx";
 import Login from "./Login.jsx";
 import Register from "./Register.jsx";
+import Terms from "./terms.jsx";
 
 function LoginRoute() {
   const navigate = useNavigate();
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<LoginRoute />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/terms" element={<Terms />} />
       </Routes>
     </BrowserRouter>
   );
