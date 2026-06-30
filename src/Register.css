@@ -4,8 +4,9 @@
   align-items: center;
   justify-content: center;
   padding: 32px;
-  background: radial-gradient(circle at top left, rgba(201, 166, 70, 0.12), transparent 35%),
-    radial-gradient(circle at bottom right, rgba(82, 98, 255, 0.12), transparent 30%),
+  background:
+    radial-gradient(circle at top left, rgba(249, 115, 22, 0.2), transparent 25%),
+    radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.15), transparent 20%),
     #111316;
 }
 
@@ -15,7 +16,6 @@
   border: 1px solid rgba(255, 228, 134, 0.12);
   border-radius: 24px;
   padding: 34px 30px;
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
   color: #e0dacc;
   position: relative;
 }

@@ -5,12 +5,6 @@ function Terms() {
   return (
     <div className="terms-page">
       <div className="terms-card">
-        <Link to="/register" className="back-link">
-          ← Back to registration
-        </Link>
-
-
-        
         <h1>Terms & Conditions • Privacy Policy • Refund & Cancellation Policy</h1>
 
         <section className="terms-section">
@@ -160,6 +154,9 @@ function Terms() {
             <b><i>By using ASG_STRENGTH services and website, you acknowledge and agree to this combined policy document.</i></b>
           </p>
         </section>
+        <Link to="/register" className="back-link">
+          ← Back to registration
+        </Link>
       </div>
     </div>
   );
