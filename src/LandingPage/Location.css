@@ -36,30 +36,22 @@
 }
 
 .icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 14px;
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 24px;
+  flex-shrink: 0;
 }
 
-.location {
-  background: rgba(216, 183, 91, 0.9);
+.location, .phone, .hours {
+  background: rgba(145, 119, 49, 0.842);
 }
-
-.phone {
-  background: rgba(216, 183, 91, 0.9);
-}
-
-.hours {
-  background: rgba(216, 183, 91, 0.9);
-}
-
 .info-box h4 {
-  margin-bottom: 8px;
-  font-size: 15px;
+  margin-bottom: 6px;
+  font-size: 18px;
 }
 
 .info-box p {

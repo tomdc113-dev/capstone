@@ -1,4 +1,7 @@
 import "./Footer.css";
+import facebookImg from "../assets/facebook.png";
+import instagramImg from "../assets/instagram.png";
+import tiktokImg from "../assets/tik-tok.png";
 
 function Footer() {
   return (
@@ -29,18 +32,39 @@ function Footer() {
         <div className="footer-section">
           <h3>Contact</h3>
 
-          <p>Phone: +63 909 313 6752</p>
-          <p>Email: asg_strength@gmail.com</p>
-          <p>Address: Las Piñas City</p>
+        <div className="contact-links">
+            <a href="tel:+639093136752" className="contact-item">
+              <span className="contact-icon">📞</span>
+              <span>+63 909 313 6752</span>
+            </a>
+            <a href="mailto:asg_strength@gmail.com" className="contact-item">
+              <span className="contact-icon">✉️</span>
+              <span>asg_strength@gmail.com</span>
+            </a>
+            <a href="#location" className="contact-item">
+              <span className="contact-icon">📍</span>
+              <span>Las Piñas City</span>
+            </a>
+          </div>
         </div>
 
         {/* Socials */}
         <div className="footer-section">
           <h3>Follow Us</h3>
-
-          <a href="">Facebook</a>
-          <a href="https://www.instagram.com/asg_strength/" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="">TikTok</a>
+          <div className="social-links">
+            <a href="" className="social-item">
+              <img src={facebookImg} alt="Facebook" />
+              <span>Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/asg_strength/" target="_blank" rel="noopener noreferrer" className="social-item">
+              <img src={instagramImg} alt="Instagram" />
+              <span>Instagram</span>
+            </a>
+            <a href="" className="social-item">
+              <img src={tiktokImg} alt="TikTok" />
+              <span>TikTok</span>
+            </a>
+          </div>
         </div>
 
       </div>

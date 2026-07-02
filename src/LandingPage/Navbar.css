@@ -7,9 +7,7 @@
   backdrop-filter: blur(3.2px);
   -webkit-backdrop-filter: blur(8px);
   color:  #DED8D1;
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: fixed;  
   width: 100%;
   box-sizing: border-box;
   z-index: 1000;
@@ -18,7 +16,7 @@
 .nav-left {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 .logo {
@@ -37,8 +35,7 @@
   gap: 20px;
   list-style: none;
   align-items: center;
-  margin: 0;
-  padding: 0;
+  margin-right: 4.2rem;
 }
 
 .nav-links li {
@@ -52,9 +49,10 @@
 }
 
 .nav-links li:hover {
-  color: white;
+  color: #C9A646;
+  text-decoration: underline;
 }
-
+  
 .nav-right {
   display: flex;
   gap: 10px;

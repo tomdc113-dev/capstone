@@ -1,4 +1,6 @@
 import "./Location.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMapMarkerAlt, faPhone, faClock } from "@fortawesome/free-solid-svg-icons";
 
 function Location() {
   return (
@@ -14,7 +16,7 @@ function Location() {
         </p>
 
         <div className="info-box">
-          <div className="icon location">📍</div>
+          <div className="icon location"><FontAwesomeIcon icon={faMapMarkerAlt} style={{color: "#FFD447"}} /></div>
 
           <div>
             <h4>Main Location</h4>
@@ -27,7 +29,7 @@ function Location() {
         </div>
 
         <div className="info-box">
-          <div className="icon phone">📞</div>
+          <div className="icon phone"><FontAwesomeIcon icon={faPhone} style={{color: "#FFD447"}} /></div>
 
           <div>
             <h4>Phone</h4>
@@ -36,7 +38,7 @@ function Location() {
         </div>
 
         <div className="info-box">
-          <div className="icon hours">🕒</div>
+          <div className="icon hours"><FontAwesomeIcon icon={faClock} style={{color: "#FFD447"}} /></div>
 
           <div>
             <h4>Hours</h4>
